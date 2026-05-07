@@ -32,9 +32,13 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     unzip \
     nano \
+    vim \
+    less \
     sudo \
     iputils-ping \
     telnet \
+    netcat-openbsd \
+    postgresql-client \
     mc \
     && rm -rf /var/lib/apt/lists/*
 
