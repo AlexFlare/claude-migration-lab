@@ -13,5 +13,5 @@ This repository contains PowerShell scripts for building and running local Docke
 ## Network
 
 All containers use the Docker network:
-
+```text
 dev-net
