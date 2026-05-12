@@ -1,1 +1,0 @@
-docker run -d   --name postgres16   --network dev-net   -e POSTGRES_USER=postgres  -e POSTGRES_PASSWORD=postgrespass   -e POSTGRES_DB=appdb   -p 5432:5432   postgres:16
