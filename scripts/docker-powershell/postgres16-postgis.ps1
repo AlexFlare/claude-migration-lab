@@ -1,4 +1,5 @@
 docker run --name postgres16-postgis `
+  --network dev-net `
   -e POSTGRES_USER=postgres `
   -e POSTGRES_PASSWORD=postgrespass `
   -e POSTGRES_DB=postgres `
